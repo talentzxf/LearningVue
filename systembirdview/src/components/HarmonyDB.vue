@@ -13,10 +13,9 @@ export default {
 <style scope>
 #harmony_db{
 border: solid blue;
-display: inline;
+display: inline-block;
 width: auto;
 float: left;
-clear: both
 }
 
 #harmony_db img{
@@ -26,6 +25,5 @@ padding: 0px;
 border: 0px;
 display: inline-block;
 float: left;
-clear: both;
 }
 </style>

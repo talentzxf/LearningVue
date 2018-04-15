@@ -16,11 +16,18 @@ export default {
     return {
       db_defs:
       [
-      { name: 'C01DB01' },
+      { name: 'C01DB01', status: 'NORMAL' },
       { name: 'C02DB01' },
       { name: 'C03DB01' },
       { name: 'C04DB01' },
-      { name: 'C05DB01' }
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
+      { name: 'C05DB01' },
       ]
     }
   }
