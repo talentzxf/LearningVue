@@ -1,7 +1,6 @@
 <template>
   <div id="harmony_container">
     <div v-for="db in db_defs">
-      <li> {{ db.name }} </li>
       <harmony-db v-bind:db_name='db.name'></harmony-db>
     </div>
   </div>
@@ -29,6 +28,9 @@ export default {
 </script>
 <style scope>
 #harmony_container{
-border: solid red
+border: solid red;
+width: 500px;
+display: inline;
+float: left
 }
 </style>
