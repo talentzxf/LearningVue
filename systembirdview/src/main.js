@@ -2,14 +2,22 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+import HarmonyApp from './HarmonyApp'
+import router from './harmony_router'
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+///* eslint-disable no-new */
+//new Vue({
+//  el: '#app',
+//  harmony_router,
+//  components: { App },
+//  template: '<App/>'
+//})
+
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+   el: '#harmony_app',
+   router,
+   components: { HarmonyApp },
+   template: '<HarmonyApp/>'
 })
